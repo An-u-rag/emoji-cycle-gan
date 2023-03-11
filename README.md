@@ -3,7 +3,7 @@
 A simplified implementation of Vanilla GAN (LSGAN) and Cycle GAN for image translation between windows and apple emojis. 
 
 
-*Options.py*
+# Options.py
 This file has all the relevant options to control the training and testing of the cycle and vanilla GANS with some base options. 
 Specifically 2 options which are "format" and "d_sigmoid". 
 "format" options is used for selecting the type of input we want to handle that is "RBG" or "RGBA", the rest of the code automatically accounts for the changes in the model. 
